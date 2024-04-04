@@ -1,0 +1,33 @@
+node -v ------> show version 
+
+node ------> start with node
+
+.help ------> to show many commands
+
+ctrl + c ----> exit from node
+
+node file.js ----> enter the file and excute the code
+
+npm init  -----> create a package.json file in your project folder 
+
+npm install xxx --save   -->  add module into dependencies of package.json
+                        -->  install a package and save  it to the local dependency tree
+
+npm ls     --> list all installed modules  (local)
+
+npm outdated    --> check which packages  are outdated 
+
+npm update      --> update all the out dated packages
+
+npm uninstall xx --save   --> remove  a specified package from local dependency tree
+
+npm root -g   --> get global  installation path
+
+npm prefix -g  --> get the  path where npm is installed globally 
+
+npm install <name> ---- >install  module from npm 
+npm install sillyname     ---> generate a rundom  names
+
+
+********* dont forget "type": "module",  in package.json ********
+add "type": "module", to package.json , so that we can use import/export syntax directly .
